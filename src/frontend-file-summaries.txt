@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup including new contact route, theme provider, profile setup modal, and toast notifications for the electric scooter sales app.",
+  "frontend/src/components/Layout.tsx": "Layout component with responsive header featuring Ezyride logo and tagline, navigation including Contact Us link, authentication controls, and footer with Ezyride branding and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup, collecting name, email, and phone information with form validation.",
+  "frontend/src/components/ScooterCard.tsx": "Reusable card component displaying scooter model details with image, specifications (range, speed, charging), and action buttons for purchase and test rides.",
+  "frontend/src/components/StripeSetupModal.tsx": "Admin modal for configuring Stripe payment integration with secret key and allowed countries input.",
+  "frontend/src/pages/HomePage.tsx": "Homepage with hero section prominently displaying Ezyride brand name, \"Bhavishya ki Sawari\" tagline, MBEvHub showroom reference, feature highlights, scooter catalog, and service section.",
+  "frontend/src/pages/AdminPage.tsx": "Admin dashboard for MBEvHub with tabs for managing scooter models, orders, test rides, and service appointments with CRUD operations and Stripe configuration.",
+  "frontend/src/pages/TestRidePage.tsx": "Test ride booking page for MBEvHub virtual showroom with model selection, date picker, time slot selection, and booking confirmation functionality.",
+  "frontend/src/pages/ServicePage.tsx": "Service appointment booking page for MBEvHub with maintenance, battery replacement, and repairs options, date/time selection, and service type details.",
+  "frontend/src/pages/MyOrdersPage.tsx": "User's order history page displaying purchase orders with status badges and order details in card format.",
+  "frontend/src/pages/MyBookingsPage.tsx": "User's bookings page with tabs for test rides and service appointments, showing booking details and status.",
+  "frontend/src/pages/PaymentSuccessPage.tsx": "Payment success confirmation page with navigation to orders or home after successful Stripe checkout.",
+  "frontend/src/pages/PaymentFailurePage.tsx": "Payment failure page with retry option and navigation back to home after failed Stripe checkout.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including scooter models, orders, bookings, service appointments, user profiles, and Stripe integration.",
+  "frontend/src/hooks/useEditor.ts": "Placeholder editor initialization function for future editor functionality.",
+  "frontend/src/index.css": "Global styles with OKLCH color system, custom electric theme colors (blue, green, purple) for light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with electric theme colors and custom design tokens for the scooter sales application.",
+  "frontend/index.html": "HTML entry point with Ezyride branding, favicon, and meta description including brand name, tagline, and MBEvHub showroom.",
+  "frontend/src/pages/ContactPage.tsx": "Contact Us page for MBEvHub with contact information cards (address, phone, email), embedded Google Maps widget showing showroom location in Dehradun, and contact form for customer inquiries."
+}
